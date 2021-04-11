@@ -40,5 +40,5 @@
 }
 
 .checkbox:checked + .switch {
-    background-color: #ffa355;
+    background-color:/* #ffa355*/ blue;
 }
