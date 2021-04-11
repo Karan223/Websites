@@ -57,6 +57,7 @@ button {
     border: none;
     width: 240px;
     height: 80px;
+    border-radius: 10px;
     background-color: #ffbc0f;
 }
 
