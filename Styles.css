@@ -1,48 +1,3 @@
-/*Beginning MenuContainer*/
-
-.container {
-    position: relative;
-}
-
-button {
-    outline: none;
-
-    border: none;
-    width: 240px;
-    height: 80px;
-    background-color: #ffbc0f;
-}
-
-.dropdown > div {
-    margin: 10px 0px;
-    padding: 20px 45px;
-}
-
-.dropdown {
-    background-color: #ffbc0f;
-    border-radius: 10px;
-    color: white;
-    z-index: 10;
-
-    width: 240px;
-    max-height: 80px;
-    overflow: hidden;
-
-    position: absolute;
-    top: 0%;
-
-    opacity: 0%;
-    transition: all 0.4s;
-}
-
-.dropdown.active {
-    opacity: 100%;
-    top: calc(100% + 10px);
-    width: 400px;
-    max-height: 40rem;
-    background-color: #7c4a44;
-}
-
 /*Beginning CheckSlider*/
 
 .checkbox {
@@ -88,4 +43,49 @@ button {
 
 .checkbox:checked + .switch {
     background-color: #ffa355;
+}
+
+/*Beginning MenuContainer*/
+
+.container {
+    position: relative;
+}
+
+button {
+    outline: none;
+
+    border: none;
+    width: 240px;
+    height: 80px;
+    background-color: #ffbc0f;
+}
+
+.dropdown > div {
+    margin: 10px 0px;
+    padding: 20px 45px;
+}
+
+.dropdown {
+    background-color: #ffbc0f;
+    border-radius: 10px;
+    color: white;
+    z-index: 10;
+
+    width: 240px;
+    max-height: 80px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 0%;
+
+    opacity: 0%;
+    transition: all 0.4s;
+}
+
+.dropdown.active {
+    opacity: 100%;
+    top: calc(100% + 10px);
+    width: 400px;
+    max-height: 40rem;
+    background-color: #7c4a44;
 }
