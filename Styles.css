@@ -1,6 +1,9 @@
+/*Beginning MenuContainer*/
+
 .container {
     position: relative;
 }
+
 button {
     outline: none;
 
@@ -39,6 +42,8 @@ button {
     max-height: 40rem;
     background-color: #7c4a44;
 }
+
+/*Beginning CheckSlider*/
 
 .checkbox {
     height: 0;
